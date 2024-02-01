@@ -1,4 +1,4 @@
-package m09_my_first_program;
+package java_day_01_practice;
 
 public class JavaComponents {
 
