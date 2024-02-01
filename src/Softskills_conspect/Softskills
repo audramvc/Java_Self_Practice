@@ -1,0 +1,126 @@
+
+
+JDK -Java Development Kit.
+     Is a set of development tools to write, debug and compile Java programs.
+
+JVM -Java Virtual Machine.
+
+JRE -Java Runtime Environment.
+     It is a combination of JVM and Java libraries required by the JVM to execute the Java programs.
+
+CPU -Central Processing Unit, can process only binary code.
+
+Software 2 types:
+
+1. System software -> OS : windows, MacOS, ios, android
+
+2. Application software --> divides into 4 apps:
+
+      1. website == web-based app: Cydeo, Youtube, Google, apple..
+
+      2. mobile app : calculator, calendar, note, music ....
+
+      3. Desktop app: books, music, whatsApp, keynote ...
+
+      4. Hybrid/cross-platform : Discord, Youtube, amazon, books
+
+3 layers of a software:
+
+ 1. UI - user interface
+
+ 2. DB -  Data Base
+
+ 3. API - Application Program Interface / Web-service
+
+Non- functionality : performance of the app
+
+                      performance testers ->
+
+      - respond time
+      - performance - fast or slow
+      - stress
+      - installation
+      - capacity
+
+Your responsibility:
+
+            Test the functionalities / Features of the software
+
+
+IT company departments:
+
+1. Business team
+
+    -> Project manager(PM)
+    -> Product Owner(PO)
+    -> Business Analyst(BA)
+
+2. Development team - developers & SDET
+
+
+What is software testing?
+software testing is a process to confirm the quality of a software and prevent bugs, reduce costs, improve the performance.
+
+What is to be tested in SDLC process?
+   - Documents
+   - Code
+   - Software itself
+
+How is software testing done?
+-Manually
+-Automatically
+
+Manual testing:
+		Pros: Test all kinds of applications manually
+		      Handle difficult functionalities
+		      No environment limitations
+		      Programming Knowledge is not required
+		      Accurate UI feedback
+		Cons: Time-consuming
+		      Requires more human resources
+      Not all testing can be done manually- especially performance testing
+      Not reproductible
+      The testing process is slow
+
+Automation testing:
+		    Pros: Cost-effective in the long run
+			  Reduced the overall test execution time
+			  Can be re-used
+			  Automated test scripts remove the chance of human error
+			  Helps in working with a large set of data
+		    Cons: Automation tools have limitations
+	  Skilled automation testing experts to write test scripts
+	  Additional effort to write scripts is required upfront
+
+
+Who performs testing?
+- Each step of SDLC requires perform testings, and different people test the different objects
+
+Testing types in general during the SDLC?
+Static testing (Verification process/ documents(manually): Review, Walk through, Inspect
+Dynamic testing (Validation process/ code-software(automation):
+
+	Lvl-1 Unit testing: testing a small unit/module of the application
+	Lvl-2 Integration testing: testing several related units/modules to see the data integration
+	Lvl-3 System testing:test the software itself-> functional testing, non-functional testing
+	Lvl-4 User Acceptance testing(UAT):make evaluation if the software is acceptable to release:
+	Alpha testing: UAT team -> test the software to evaluate if the software is acceptable
+	Beta testing: the client test the app to evaluate if the software is acceptable
+
+
+What needs to be tested during the SDLC? what is the testing approach? who performs testings?
+Documents  manually -> static testing -> client,business team, designers
+Code -> automation -> Dynamic testing -> developers
+Software -> manually & automatically -> SDET, performance testers
+
+White box testing?
+Test the app with very good knowledge for the application internal code.
+Unit and integration testing
+
+Black box testing?
+Test the app without any technical knowledge, without knowing the application internal code.
+Manual tester, the client, end users.
+
+Gray box testing?
+Test the app with partial knowledge to the app’s internal code structure.
+Automation engineers perform testing with partial knowledge.
