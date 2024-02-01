@@ -1,4 +1,4 @@
-package m10_variables_data_types;
+package java_day_02_practice;
 
 public class EmployeeInfo {
 
